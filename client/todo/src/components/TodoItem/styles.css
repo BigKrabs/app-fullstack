@@ -1,0 +1,15 @@
+.title-done {
+    opacity: 0.5;
+    text-decoration: line-through;
+    transition: opacity .3s ease-in-out;
+}
+
+@media (max-width: 450px) {
+    .todo-item {
+        flex-direction: column;
+    }
+
+    .todo-text {
+        margin-bottom: 15px;
+    }
+}
